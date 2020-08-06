@@ -1,0 +1,74 @@
+[
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "CANDLE_CLOSE_PRICE",
+    "description": "Candle's ClosePrice Values",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "CANDLE_VOLUME_V1",
+    "description": "Candle's Volume Values",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "CANDLE_VOLUME_V2",
+    "description": "Candle's Volume Values",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "BAR_COUNT", "type":  "INT", "description":  "the time frame", "value":  null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "MACD_V1",
+    "description": "Moving Average Convergence Divergence",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "the indicator to calculate with", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "MACD_V2",
+    "description": "Moving Average Convergence Divergence",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "the indicator to calculate with", "value": null},
+      {"name": "SHORT_BAR_COUNT", "type": "INT", "description": "the short time frame (normally 12)", "value": null},
+      {"name": "LONG_BAR_COUNT", "type": "INT", "description": "the long time frame (normally 26)", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "RSI",
+    "description": "Relative Strength Index (Welles Wilder formula)",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "the indicator to calculate with", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description":  "the time frame", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "INDICATOR",
+    "type": "SMA",
+    "description": "Simple Moving Average",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "the indicator to calculate with", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description":  "the time frame", "value": null}
+    ]
+  }
+]

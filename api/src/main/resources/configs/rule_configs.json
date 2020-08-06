@@ -1,0 +1,156 @@
+[
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "AND",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "RULE_1", "type": "RULE", "description": "", "value": null},
+      {"name": "RULE_2", "type": "RULE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "CROSS_OVER_V1",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "THRESHOLD", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "CROSS_OVER_V2",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR_1", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "INDICATOR_2", "type": "INDICATOR_NUM", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "CROSS_UNDER_V1",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "THRESHOLD", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "CROSS_UNDER_V2",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR_1", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "INDICATOR_2", "type": "INDICATOR_NUM", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "IN_SLOPE",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "NTH_PREVIOUS", "type": "INT", "description": "", "value": null},
+      {"name": "MIN_SLOPE", "type": "DOUBLE", "description": "", "value": null},
+      {"name": "MAX_SLOPE", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "IS_FALLING_V1",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "IS_FALLING_V2",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description": "", "value": null},
+      {"name": "MIN_STRENGTH", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "IS_RISING_V1",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "IS_RISING_V2",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "INDICATOR", "type": "INDICATOR_NUM", "description": "", "value": null},
+      {"name": "BAR_COUNT", "type": "INT", "description": "", "value": null},
+      {"name": "MIN_STRENGTH", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "NOT",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "RULE", "type": "RULE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "OR",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "RULE_1", "type": "RULE", "description": "", "value": null},
+      {"name": "RULE_2", "type": "RULE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "STOP_GAIN",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "GAIN_PERCENTAGE", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  },
+  {
+    "name": null,
+    "baseType": "RULE",
+    "type": "STOP_LOSS",
+    "description": "",
+    "fields": [
+      {"name": "Name", "type":  "STRING", "description":  "custom config name", "value":  null},
+      {"name": "LOSS_PERCENTAGE", "type": "DOUBLE", "description": "", "value": null}
+    ]
+  }
+]

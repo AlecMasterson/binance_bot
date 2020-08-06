@@ -1,0 +1,20 @@
+.card-header {
+    cursor: pointer;
+}
+
+.card-body {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.empty-body {
+    padding: 0.75rem !important;
+}
+
+.table {
+    margin: 0 !important;
+}
+
+thead {
+    display: none;
+}

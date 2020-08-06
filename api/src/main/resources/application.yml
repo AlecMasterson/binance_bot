@@ -1,0 +1,31 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:binance_db
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    open-in-view: false
+
+app:
+  binance-public: NyznZ3EASRocHPeatbd8hqueyeaOT8DZRFae06Sl5nZkdfjGBRPVHt1K6L4K9jlR
+  binance-secret: DETgdePmd9mtuOFKRR8IrZvgi0NNr5ZLc9fQkyygwtYqEppEiiV4DRisUKm8ij33
+
+  tickers:
+    - BNBBTC
+    - BCHBTC
+    - ETHBTC
+    - DASHBTC
+    - XMRBTC
+    - ZECBTC
+    - LTCBTC

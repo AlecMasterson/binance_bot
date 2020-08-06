@@ -1,0 +1,28 @@
+.add-config-button {
+    margin-top: 1rem;
+}
+
+.form-group > label {
+    font-weight: bold;
+}
+
+.form-group .label-subtext {
+    color: gray;
+}
+
+.modal-title {
+    line-height: 1.0 !important;
+}
+
+.modal-title > .label-subtext {
+    color: gray;
+    font-size: 60%;
+}
+
+.modal-body {
+    padding-bottom: 0 !important;
+}
+
+.accordion .card-header {
+    cursor: pointer;
+}
